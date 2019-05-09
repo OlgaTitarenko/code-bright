@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: sofia-pro-soft, sans-serif;
+    position: relative;
+
+}
+/*header*/
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    margin: 50px;
+    display: inline;
+    position: relative;
+}
+.logo {
+    padding: 50px;
+    float: left;
+}
+nav{
+    float: right;
+    padding-top: 50px;
+}
+nav li {
+    display: inline-block;
+    padding-right: 35px;
+    font-size: 14px;
+    z-index: 2;
+}
+
+/*main*/
+main{
+    position: relative;
+    padding-top: 200px;
+}
+h1 {
+   font-size: 70px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+main img{
+    padding-top: 50px;
+    width: 100%;
+}
+
+/*about us section*/
+.about-us{
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.about-us article {
+    width: 260px;
+}
+.about-us h2 {
+    font-size: 36px;
+}
+.about-us li {
+    font-size: 16px;
+}
+.users-icon{
+    color: #4a78f0;
+}
+.desktop-icon {
+    color: #f9da43;
+}
+.cogs-icon{
+    color:#84e8b5;
+}
+
+/*write comment section*/
+.write-comment{
+    background-color: #1d1e25;
+    padding: 130px 180px 140px 180px;
+    display: flex;
+}
+.write-comment .head {
+    width: 320px;
+    padding-right: 100px;
+}
+.write-comment h2{
+    color: #ffffff;
+    font-size: 55px;
+}
+.write-comment .form{
+    color: #49a779;
+    float: right;
+    width: 100%;
+    top: 0;
+    left: 400px;
+}
+.form input{
+    display: block;
+    border: 1px solid #49a779;
+    color: #49a779;
+    background-color: #1d1e25;
+    font-size: 16px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.form textarea{
+    border: 1px solid #49a779;
+    color: #49a779;
+    background-color: #1d1e25;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.form button{
+    color: #1d1e25;
+    background-color: #49a779;
+    border: 5px solid #49a779;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 55px;
+    width: 140px;
+}
+/*footer*/
+footer{
+    background-color: #1d1e25;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width:100%;
+}
+footer div{
+    border-top: 1px solid #3e404f;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+
+}
+footer .information{
+    float:left;
+    color: #f7f7f7;
+    font-size: 16px;
+}
+footer .foot{
+    float: right;
+    color: #4a4d5e;
+    font-size: 16px;
+}
+
+
