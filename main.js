@@ -52,12 +52,13 @@ async function updateComment(id) {
 }
 updateComment(19);
 
-const divComments = document.querySelector('.div-comments');
 
 async function getComment() {
     const response = await fetch('https://5cbef81d06a6810014c66193.mockapi.io/api/comments');
     const comments = await response.json();
     console.log(comments);
+
+    const divComments = document.querySelector('.div-comments');
     divComments.innerHTML = `
     <div class="comments">
     <h1>
@@ -80,6 +81,7 @@ async function getOneComment (id) {
     const response = await fetch('https://5cbef81d06a6810014c66193.mockapi.io/api/comments/'+id);
     const comment = await response.json();
     console.log(comment);
+    const divComments = document.querySelector('.div-comments');
     divComments.innerHTML = `
       <div class="comment">
         <section>
