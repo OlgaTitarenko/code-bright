@@ -27,13 +27,16 @@ nav li {
     display: inline-block;
     padding-right: 35px;
     font-size: 14px;
-    z-index: 2;
+}
+nav .active{
+    border-top: 2px solid #f9d10d;
+    padding-top: 10px;
 }
 
 /*main*/
 main{
     position: relative;
-    padding-top: 200px;
+    margin-top: 200px;
 }
 h1 {
    font-size: 70px;
@@ -63,14 +66,17 @@ main img{
 .about-us li {
     font-size: 16px;
 }
-.users-icon{
-    color: #4a78f0;
+.users-icon img{
+    width: 40px;
+    padding-top: 0;
 }
-.desktop-icon {
-    color: #f9da43;
+.desktop-icon img{
+    width: 40px;
+    padding-top: 0;
 }
-.cogs-icon{
-    color:#84e8b5;
+.cogs-icon  img{
+    width: 40px;
+    padding-top: 0;
 }
 
 /*write comment section*/
@@ -124,6 +130,78 @@ main img{
     font-size: 16px;
     height: 55px;
     width: 140px;
+}
+.error-message{
+    color:red;
+}
+/*comments*/
+.section-comm{
+    margin-left: 180px;
+    column-width: 550px;
+    column-gap: 15px;
+    width: 90%;
+}
+.comments{
+    padding: 50px 20px;
+    background-color: #ffffff;
+    width: 90%;
+    transition: opacity .4s ease-in-out;
+    display: inline-block;
+    column-break-inside: avoid;
+}
+.comments h5{
+    font-size: 24px;
+}
+.comments p{
+    font-size: 14px;
+    color: #888888;
+}
+.comments button{
+    color: #1d1e25;
+    background-color: #49a779;
+    border: 5px solid #49a779;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 55px;
+    width: 140px;
+}
+.back-to-home{
+   text-align: center;
+   height: 100%;
+   padding-bottom: 170px;
+}
+.back-to-home h2{
+    color: #4a4d5e;
+    font-size: 24px;
+    padding: 40px;
+}
+.back-to-home a{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #49a779;
+}
+.back-to-home i{
+    color: #49a779;
+}
+
+/*one comment*/
+.comment{
+    margin: 50px 300px;
+}
+.comment .back-to-comm i{
+    color: #49a779;
+    padding-right: 10px;
+}
+.comment a{
+   text-decoration: underline;
+}
+.comment h2{
+    font-size: 48px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.comment p {
+    font-size: 16px;
 }
 /*footer*/
 footer{
